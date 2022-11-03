@@ -64,7 +64,7 @@ self.addEventListener('notificationclick', ev => {
     return clients.map(client => {
       // Ondersteuning checken
       if ('navigate' in client) {
-        return client.navigate('https://www.vijfhart.nl');
+        return client.navigate('https://www.ramcodeworks.com/');
       }
     });
   }));

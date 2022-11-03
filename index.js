@@ -70,8 +70,9 @@ window.onload = function(){
             /*
             * RM: gebruik hier de private key gegenereerd zoals beschreven met web-push generate-vapid-keys (om voor developmenttesting op machine push 
             * notificaties te testen) 
+            * Anderzijds Google's Firebase Cloud Messaging (FCM) can be uses (generate api key)
             * */
-            const publicKey = urlBase64ToUint8Array('BCMU_JM1twmp5yN_lfEC5H6-rXGqYgooB8nv-MjWhqdBswnlN7JGO8Q3-Jgqh4ZneoBuSshvCwPVweBY5nuRXk8');
+            const publicKey = urlBase64ToUint8Array('BEbOHIK9hMRd_qvRRXRuYoyfaNYc9aTDO9MVZohIVdNAUxyvxfv5R4Y9zwRcoSiYBr5V2bcsGqcnuFefpJHsSc4');
             
             registratie.pushManager.subscribe(
                 {
