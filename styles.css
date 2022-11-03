@@ -9,7 +9,7 @@
   }
   
   header {
-    background-color: pink;
+    background-color: rgba(87, 68, 61, 0.426);
     background-image: url("icons/logo.svg");
     background-size: auto 90%;
     background-position: center right 1em;

@@ -3,21 +3,52 @@
     <head> 
         <link rel="manifest" href="app.webmanifest"> 
         <link rel="stylesheet" href="styles.css" /> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+
+        <meta name="description" content="PWA opdracht , onderdeel van Advanced JS cursus">
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="application-name" content="PWA voorbeeld" />
+        <meta name="apple-mobile-web-app-title" content="PWA voorbeeld" />
+        <meta name="msapplication-starturl" content="/index.html" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
         <script src="scripts.js"></script>  
     </head>
 
 <body>
-    
-    
-    
-    
+       
     <header>
-        <h1>PWA</h1>
-        <p>My first PWA</p>
+        <h1>Ramon's Software Concepts</h1>
+        <p>Mijn eerste Progressive Web App (PWA)</p>
       </header>
 
+      <section id="register">
+        <h1 class="row">Registratie</h1>
+        <div class="flex">
+          <form action="" class="col">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <div class="actions">
+              <button type="submit">Registreer</button>
+            </div>
+          </form>
+  
+          <p class="col status"></p>
+        </div>
+      </section>
 
-
+      <footer>
+        <p>
+            Ramon van der Meeren - Vijfhart Training Advanced Javascript Developement, opdracht PWA
+        </p>
+        <button id="install_button">Install PWA</button>
+      </footer>
 </body>
 
 </html>
