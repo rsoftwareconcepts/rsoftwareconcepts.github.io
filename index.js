@@ -16,7 +16,7 @@ window.onload = function(){
                 }
             ).catch(
                 fout => {
-                    console.log(`Ging iets fout: ${fout}`);
+                    console.log(`Er ging iets fout: ${fout}`);
                 }
             );
         }
